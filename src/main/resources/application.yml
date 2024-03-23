@@ -1,0 +1,12 @@
+server:
+  port: 8080
+
+spring:
+  datasource:
+    driver-class-name: org.postgresql.Driver
+    username: user
+    password: pass
+    url: jdbc:postgresql://localhost:5432/ms-email
+  jpa:
+    hibernate:
+      ddl-auto: update
